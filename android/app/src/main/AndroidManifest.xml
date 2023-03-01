@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.droon_flutter_ui">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="droon_flutter_ui"
         android:name="${applicationName}"

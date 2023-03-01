@@ -2,15 +2,22 @@
 
 A new Flutter project.
 
-## Getting Started
+# Changelog
 
-This project is a starting point for a Flutter application.
+Note: _**last updated january 2023 configured project to latest flutter version 3.7.3**_
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+<img src="" width="200%">
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Github Link :
+https://github.com/dudecoderr/Dron-Delivery_Service_App_in_flutter.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Packages used:**
+- flutter_screenutil: ^5.6.1
+- easy_stepper: ^0.3.2
+- lottie: ^2.2.0
+- video_player: ^2.5.1
+- rulers: ^1.0.7
+- another_xlider: ^1.1.2
+- percent_indicator: ^4.2.2

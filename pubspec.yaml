@@ -32,11 +32,12 @@ dependencies:
     sdk: flutter
 
   flutter_screenutil: ^5.6.1
-  geolocator: ^9.0.2
-  flutter_google_places: ^0.3.0
-  font_awesome_flutter: ^10.4.0
-  google_maps_flutter: ^2.2.4
-
+  easy_stepper: ^0.3.2
+  lottie: ^2.2.0
+  video_player: ^2.5.1
+  rulers: ^1.0.7
+  another_xlider: ^1.1.2
+  percent_indicator: ^4.2.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -95,5 +96,13 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-ExtraLight.ttf
+        - asset: fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 900
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
