@@ -18,8 +18,7 @@ class _LiveButtonBottomSheetState extends State<LiveButtonBottomSheet> {
   void initState() {
     super.initState();
     _videoPlayerController =
-        VideoPlayerController.network('https://joy1.videvo.net/videvo_files/video/free/2018-01/small_watermarked/171124_F1_001_preview.webm')
-          ..initialize()
+        VideoPlayerController.asset("aseets/City107673.mp4")
           ..play()
           ..setLooping(true);
     super.initState();

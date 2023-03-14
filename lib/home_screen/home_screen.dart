@@ -229,8 +229,8 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           /// ========== Drone ==========
           AnimatedPositioned(
             duration: const Duration(seconds: 7),
-            bottom: isAnimation ? 400 : 2,
-            left: isAnimation ? 100 : 140,
+            bottom: isAnimation ? 400 : 15,
+            left: isAnimation ? 110 : 155,
             child: GestureDetector(
               child: Lottie.asset("aseets/drone.json", height: 125, width: 125),
               onLongPress: () {
